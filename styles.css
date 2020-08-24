@@ -1,0 +1,241 @@
+body {
+    background-color:#fbfded;
+}
+
+p {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+li {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+/* * .dark-mode {
+    background-color: #0f2933;
+    color: white;
+  } */
+
+/* Navigation */
+
+#brand{
+    font-family: 'prociono', serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.navbar {
+    overflow: hidden;
+    padding: 10 10 10rem;
+  }
+  
+.navbar a {
+    font-size: 1rem;
+    font-family: 'Work Sans', sans-serif;
+    float: left;
+    letter-spacing: 1px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+  }
+  
+  .navbar a:hover {
+    border-bottom: 3px solid black;
+  }
+  
+  .navbar a.active {
+    border-bottom: 3px solid black;
+  }
+
+  #navigation {
+    font-size: 1rem;
+    font-family: 'Work Sans', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 400;
+  }
+
+/* Title */
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+#title-text {
+    font-family: 'prociono', serif;
+    font-weight: 400;
+    line-height: 1.2em;
+    font-size: 5.5em;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    background-color:#fbfded;
+}
+
+.lead {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+/* Album */
+
+.tile {
+    padding-bottom: 5%;
+}
+
+#album {
+    background-color:#fbfded;
+}
+
+#jammming {
+    /* height: 322px; */
+}
+
+#piano {
+    /* height: 348px; */
+}
+
+
+.card-text {
+    text-align: center;
+    padding: 2% 0% 2%;
+    font-family: 'Work Sans';
+}
+
+/* Icons */
+
+.card-icons {
+    text-align: center;
+
+}
+
+#html {
+    color: #f16529;
+    margin: 0% 2%;
+}
+
+#css {
+    color: #00a0dc;
+    margin: 0% 2%;
+}
+
+#javascript {
+    color: #f0db4f;
+    margin: 0% 2%;
+}
+
+#react {
+    color: #61dbfb;
+    margin: 0% 2%;
+}
+
+#bootstrap {
+    color: #563d7c;
+    margin: 0% 2%;
+}
+
+#python {
+    color: #306998;
+    margin: 0% 2%;
+}
+
+#github {
+    margin: 0% 2%;
+}
+
+.jquery {
+    position: relative;
+    top:-10px;
+    width: 22px;
+}
+
+.jquery2 {
+    position: relative;
+    top:-0px;
+    width: 17px;
+    margin: 0% 2%;
+}
+
+/* About */
+
+.bio-image {
+    width: 90%;
+}
+
+.bio {
+    padding-top: 7%;
+    font-size: 1.1em;
+}
+
+.list {
+    line-height: 60%;
+}
+
+/* Videos */
+
+video {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    border: 3px solid black;
+}
+
+/* Footer */
+
+footer {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    position: fixed;
+    background-color: #fbfded;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding-bottom: 3px;
+}
+
+/* Media Queries */
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+    .bio-image {
+        width: 110%;
+        text-align: center;
+        padding: 7%;
+    }
+    
+    .bio {
+        padding: 7% 7% 7% 2%;
+        font-size: 1.2em;
+        align-content: center;
+    }
+
+    .bio-text {
+        margin-left: 7%
+    }
+
+    #brand{
+        font-family: 'prociono', serif;
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    #navigation {
+        font-size: 1.2rem;
+        font-family: 'Work Sans', sans-serif;
+        letter-spacing: 2px;
+        font-weight: 400;
+      }
+
+      video {
+        margin: 20% auto;
+        border: 1px solid black;
+    }
+
+}
+
