@@ -24,9 +24,9 @@ body {
   display: block;
   text-align: left;
   font-family: 'Press Start 2P', cursive;
-  font-size: 1.2rem;
+  font-size: 0.7rem;
   line-height: 2em;
-  margin:  5%;
+  margin:  7% 3%;
   color: #FEF2BF;
 }
 
@@ -67,7 +67,8 @@ body {
 
 @media only screen and (max-width: 1000px) {
   #instructions {
-    width: 100%;
+    width: 90%;
+    margin: 7% 1%;
     display: flex-box;
     position: static;
     text-align: center
