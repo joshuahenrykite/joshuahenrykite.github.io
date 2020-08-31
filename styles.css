@@ -52,7 +52,6 @@ li {
   #navigation {
     font-size: 1rem;
     font-family: 'Work Sans', sans-serif;
-    letter-spacing: 2px;
     font-weight: 400;
   }
 
@@ -170,6 +169,12 @@ li {
     font-size: 1.1em;
 }
 
+ul {
+    display: inline-block;
+    *display: inline;
+    zoom: 1
+}
+
 .list {
     line-height: 60%;
 }
@@ -229,7 +234,6 @@ footer {
     #navigation {
         font-size: 1.2rem;
         font-family: 'Work Sans', sans-serif;
-        letter-spacing: 2px;
         font-weight: 400;
       }
 
